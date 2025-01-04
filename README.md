@@ -86,26 +86,26 @@ bash
 Copy code
 npm install
 
-##Set Up Environment Variables
- --Create a .env file in the root directory and configure the following:
+## Set Up Environment Variables
+ - Create a .env file in the root directory and configure the following:
 
---makefile
---Copy code
---MONGO_URI=your_mongo_db_connection_string
---PORT=5000
---JWT_SECRET=your_jwt_secret
---Run the Project
---Start the development server:
+- makefile
+- Copy code
+- MONGO_URI=your_mongo_db_connection_string
+- PORT=5000
+- JWT_SECRET=your_jwt_secret
+- Run the Project
+- Start the development server:
 
 bash
---Copy code
---npm run dev
---Navigate to http://localhost:3000 to view the project in your browser.
+- Copy code
+- npm run dev
+- Navigate to http://localhost:3000 to view the project in your browser.
 
-##Folder Structure
---bash
---Copy code
---phronesis-tour-logistics/
+## Folder Structure
+- bash
+- Copy code
+- phronesis-tour-logistics/
 --├── public/              # Static assets
 ---├── src/
 --│   ├── apis/            # Axios API handlers
@@ -125,7 +125,7 @@ Scripts
 --npm run test: Run tests using Jest.
 --npm run lint: Lint the codebase with ESLint.
 
-##API Endpoints
+## API Endpoints
 --Authentication
 --POST /api/auth/register: Register a new user.
 --POST /api/auth/login: User login.
@@ -146,7 +146,7 @@ Scripts
 --License
 --This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Contact
+## Contact
 --For inquiries or support, reach out via:
 
 --Email: info@phronesistourlogistics.com
