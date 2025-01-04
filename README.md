@@ -102,66 +102,12 @@ bash
 - npm run dev
 - Navigate to http://localhost:3000 to view the project in your browser.
 
-## Folder Structure
-- bash
-- Copy code
-- phronesis-tour-logistics/
---├── public/              # Static assets
----├── src/
---│   ├── apis/            # Axios API handlers
---│   ├── assets/          # Images and other assets
---│   ├── components/      # React components
---│   ├── contexts/        # React context for state management
---│   ├── pages/           # Page components (e.g., Home, Admin)
---│   ├── styles/          # Tailwind configuration and global styles
---│   ├── utils/           # Helper functions
---│   └── App.tsx          # Main app component
---├── .env                 # Environment variables
---├── package.json         # Project dependencies
---└── README.md            # Project documentation
-Scripts
---npm run dev: Start the development server.
---npm run build: Build the project for production.
---npm run test: Run tests using Jest.
---npm run lint: Lint the codebase with ESLint.
-
-## API Endpoints
---Authentication
---POST /api/auth/register: Register a new user.
---POST /api/auth/login: User login.
---Freelancer Booking
---GET /api/bookings: Fetch all bookings.
---POST /api/bookings: Create a new booking.
---Payment
---POST /api/payments: Process a payment.
-
---Contributing
---We welcome contributions! Follow these steps:
-
---Fork the repository.
---Create a new branch: git checkout -b feature-name.
---Make changes and commit: git commit -m "Add feature".
---Push to the branch: git push origin feature-name.
---Submit a pull request.
---License
---This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
---For inquiries or support, reach out via:
-
---Email: info@phronesistourlogistics.com
---Website: Phronesis Tour Logistics
---vbnet
---Copy code
-
 ### Features Included:
 1. Full description of the project's scope and features.
 2. Detailed tech stack with all cutting-edge tools mentioned.
 3. Setup instructions for both development and production environments.
 4. API endpoints and folder structure for clarity.
 5. Contribution guidelines and licensing for open collaboration.
-
-You can customize further as needed! Let me know if you need help with any specific section.
 
 
 
