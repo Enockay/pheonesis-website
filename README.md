@@ -85,71 +85,74 @@ Install Dependencies
 bash
 Copy code
 npm install
-Set Up Environment Variables
-Create a .env file in the root directory and configure the following:
 
-makefile
-Copy code
-MONGO_URI=your_mongo_db_connection_string
-PORT=5000
-JWT_SECRET=your_jwt_secret
-Run the Project
-Start the development server:
+##Set Up Environment Variables
+ --Create a .env file in the root directory and configure the following:
+
+--makefile
+--Copy code
+--MONGO_URI=your_mongo_db_connection_string
+--PORT=5000
+--JWT_SECRET=your_jwt_secret
+--Run the Project
+--Start the development server:
 
 bash
-Copy code
-npm run dev
-Navigate to http://localhost:3000 to view the project in your browser.
+--Copy code
+--npm run dev
+--Navigate to http://localhost:3000 to view the project in your browser.
 
-Folder Structure
-bash
-Copy code
-phronesis-tour-logistics/
-├── public/              # Static assets
-├── src/
-│   ├── apis/            # Axios API handlers
-│   ├── assets/          # Images and other assets
-│   ├── components/      # React components
-│   ├── contexts/        # React context for state management
-│   ├── pages/           # Page components (e.g., Home, Admin)
-│   ├── styles/          # Tailwind configuration and global styles
-│   ├── utils/           # Helper functions
-│   └── App.tsx          # Main app component
-├── .env                 # Environment variables
-├── package.json         # Project dependencies
-└── README.md            # Project documentation
+##Folder Structure
+--bash
+--Copy code
+--phronesis-tour-logistics/
+--├── public/              # Static assets
+---├── src/
+--│   ├── apis/            # Axios API handlers
+--│   ├── assets/          # Images and other assets
+--│   ├── components/      # React components
+--│   ├── contexts/        # React context for state management
+--│   ├── pages/           # Page components (e.g., Home, Admin)
+--│   ├── styles/          # Tailwind configuration and global styles
+--│   ├── utils/           # Helper functions
+--│   └── App.tsx          # Main app component
+--├── .env                 # Environment variables
+--├── package.json         # Project dependencies
+--└── README.md            # Project documentation
 Scripts
-npm run dev: Start the development server.
-npm run build: Build the project for production.
-npm run test: Run tests using Jest.
-npm run lint: Lint the codebase with ESLint.
-API Endpoints
-Authentication
-POST /api/auth/register: Register a new user.
-POST /api/auth/login: User login.
-Freelancer Booking
-GET /api/bookings: Fetch all bookings.
-POST /api/bookings: Create a new booking.
-Payment
-POST /api/payments: Process a payment.
-Contributing
-We welcome contributions! Follow these steps:
+--npm run dev: Start the development server.
+--npm run build: Build the project for production.
+--npm run test: Run tests using Jest.
+--npm run lint: Lint the codebase with ESLint.
 
-Fork the repository.
-Create a new branch: git checkout -b feature-name.
-Make changes and commit: git commit -m "Add feature".
-Push to the branch: git push origin feature-name.
-Submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+##API Endpoints
+--Authentication
+--POST /api/auth/register: Register a new user.
+--POST /api/auth/login: User login.
+--Freelancer Booking
+--GET /api/bookings: Fetch all bookings.
+--POST /api/bookings: Create a new booking.
+--Payment
+--POST /api/payments: Process a payment.
 
-Contact
-For inquiries or support, reach out via:
+--Contributing
+--We welcome contributions! Follow these steps:
 
-Email: info@phronesistourlogistics.com
-Website: Phronesis Tour Logistics
-vbnet
-Copy code
+--Fork the repository.
+--Create a new branch: git checkout -b feature-name.
+--Make changes and commit: git commit -m "Add feature".
+--Push to the branch: git push origin feature-name.
+--Submit a pull request.
+--License
+--This project is licensed under the MIT License. See the LICENSE file for details.
+
+##Contact
+--For inquiries or support, reach out via:
+
+--Email: info@phronesistourlogistics.com
+--Website: Phronesis Tour Logistics
+--vbnet
+--Copy code
 
 ### Features Included:
 1. Full description of the project's scope and features.
